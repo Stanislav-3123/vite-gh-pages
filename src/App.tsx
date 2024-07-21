@@ -17,9 +17,9 @@ function App() {
             <FloatingButton/>
             <Header/>
             <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/contacts' element={<ContactsPage/>}/>
-                <Route path='/policies' element={<PoliciesPage/>}/>
+                <Route path='/vite-gh-pages/' element={<Home/>}/>
+                <Route path='/vite-gh-pages/contacts' element={<ContactsPage/>}/>
+                <Route path='/vite-gh-pages/policies' element={<PoliciesPage/>}/>
             </Routes>
             <Footer/>
         </Wrapper>
