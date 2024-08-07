@@ -1,4 +1,3 @@
-import {Link} from "react-scroll";
 import {useEffect, useState} from "react";
 
 export const FloatingButton = () => {
@@ -22,9 +21,11 @@ export const FloatingButton = () => {
     };
 
     return (
-        <Link onClick={handleClick} to={'contactForm'} offset={-180} smooth={true} duration={900}
-              className={isVisible ? "floating_button animate-fade-up animate-once animate-duration-500 animate-delay-0 animate-ease-in animate-fill-backwards" : "floating_button hidden"}>
-            WRITE TO US
-        </Link>
+        <a
+            onClick={handleClick}
+            href="https://t.me/+dQuOaiWiIrUyNDli"
+            className={isVisible ? "floating_button animate-fade-up animate-once animate-duration-500 animate-delay-0 animate-ease-in animate-fill-backwards" : "floating_button hidden"}>
+            НАПИСАТЬ НАМ
+        </a>
     )
 };

@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "homepage": "https://Stanislav-3123.github.io/vite-gh-pages",
-
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -20,14 +20,14 @@ const MobileHeader = () => {
                 isOpen ?
                     <div className="mobile_header">
                         <Link to={"/"}>
-                        <div onClick={scrollToTop}
-                             className="ml-4  w-[170.58px] h-12 bg-[url('/images/dandelion_logo_color.png')] bg-contain bg-no-repeat"/>
+                            <div onClick={scrollToTop}
+                                 className="ml-4  w-[170.58px] h-12 bg-[url('/images/dandelion_logo_color.png')] bg-contain bg-no-repeat"/>
                         </Link>
                         <div onClick={() => setIsOpen(false)}
                              className=" w-14 h-14 p-4 rounded-[20px] justify-center items-center flex">
 
-                                <div
-                                    className="w-6 h-6 relative bg-[url('/images/systemIcons/menu.svg')] bg-center bg-cover"/>
+                            <div
+                                className="w-6 h-6 relative bg-[url('/images/systemIcons/menu.svg')] bg-center bg-cover"/>
 
                         </div>
                     </div>
@@ -51,22 +51,27 @@ const MobileHeader = () => {
                                     <Link to={'/'} onClick={handleClick}
                                           className="w-[170.58px] h-12 bg-[url('/images/dandelion_logo_color.png')] bg-contain bg-no-repeat"/>
                                     <div className="flex flex-col gap-4">
-                                        <NavLink onClick={() => setIsOpen(true)}
-                                                 to={"/contacts"} className="navbar_link">Продукция</NavLink>
-                                        <NavLink onClick={() => setIsOpen(true)}
-                                                 to={"/policies"} className="navbar_link">Бизнес</NavLink>
-                                        <NavLink onClick={() => setIsOpen(true)}
-                                                 to={"/policies"} className="navbar_link">Контакты</NavLink>
+                                        {/*<NavLink */}
+                                        {/*         to={"/"} className="navbar_link">Продукция</NavLink>*/}
+                                        {/*<NavLink onClick={() => setIsOpen(true)}*/}
+                                        {/*         to={"/"} className="navbar_link">Бизнес</NavLink>*/}
+                                        {/*<NavLink onClick={() => setIsOpen(true)}*/}
+                                        {/*         to={"/"} className="navbar_link">Контакты</NavLink>*/}
+                                        <NavLink onClick={() => setIsOpen(true)} to={"/products"}
+                                                 className={"navbar_link"}>Продукция</NavLink>
+                                        <a href={"https://t.me/+OhjNjl2EmpUxZDAy"} className={"navbar_link"}>Бизнес</a>
                                     </div>
                                 </div>
-                                <div className="flex flex-col gap-8">
+                                <div className="flex flex-col w-full gap-8">
                                     <div
                                         className="flex flex-col gap-4 py-8 border-t-[2px] border-b-[2px] border-slate-300">
-                                        <p className="navbar_p">Служба поддержки:</p>
+                                        <p className="navbar_p">Контакты:</p>
                                         <p className="navbar_p">+7 988 542 22 60</p>
-                                        <p className="navbar_p">Телеграмм</p>
-                                        <p className="navbar_p">ВАцап</p>
-                                        <p className="navbar_p">Инста</p>
+                                        <a href={"https://t.me/shilyamchik1981"} className="navbar_p">Telegram</a>
+                                        <a href={"https://wa.me/79885422260"} className="navbar_p">WhatsUp</a>
+                                        <a className="navbar_p">Instagram</a>
+                                        <a href={"https://t.me/techH2suppotr"} className="navbar_p">Tex-поддержка</a>
+
                                     </div>
                                     <WriteToUsButton setIsOpen={() => setIsOpen(true)}/>
                                 </div>

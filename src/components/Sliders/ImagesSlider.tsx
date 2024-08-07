@@ -53,8 +53,8 @@ const ImagesSlider = () => {
                         {isHovered1 ? <div
                             className="animate-fade animate-once animate-duration-300 animate-delay-100 animate-ease-linear animate-normal
                              flex justify-end gap-2 duration-300 mb-[180px]">
-                            <button className="gray_button duration-300">TEAM</button>
-                            <button className="gray_button duration-300">SUPPORT</button>
+                            <button className="gray_button duration-300">КОМАНДА</button>
+                            <button className="gray_button duration-300">ПОДДЕРЖКА</button>
                         </div> : null}
                         <div className="flex justify-end">
                             <div className="flex self-end flex-col gap-4 duration-300">
@@ -69,9 +69,8 @@ const ImagesSlider = () => {
                                 {isHovered1 ? <span
                                     className="animate-fade-up animate-once animate-duration-300 animate-delay-[800ms] animate-ease-linear animate-normal
                                  text-white text-sm sm:text-base font-normal font-['Roboto'] leading-snu sm:leading-relaxed">
-                                We are committed to providing unmatched customer support to our clients. Our team is always
-                                    ready to assist you with any questions or concerns you may have, ensuring your complete
-                                    satisfaction.</span> : null}
+                                Мы открыли производственные площадки в странах Америки, Европы и Азии. Над созданием эффективных экологичных продуктов работают лучшие специалисты из разных стран,
+                                    задействовано передовое оборудование, используются инновационные технологии. </span> : null}
                             </div>
                         </div>
                     </div>
@@ -167,59 +166,57 @@ const ImagesSlider = () => {
                     <div
                         className="flex flex-col  justify-between p-8 rounded-[30px] bg-cover bg-center h-[480px] w-[300px] bg-[url('/images/image/image2.jpg')]">
                         <div className="flex justify-end gap-2">
-                            <button className="gray_button">TEAM</button>
-                            <button className="gray_button">SUPPORT</button>
+                            <button className="gray_button">КОМАНДА</button>
+                            <button className="gray_button">ПОДДЕРЖКА</button>
                         </div>
-                        <div className="flex flex-col gap-8">
-                            <p className="text-white text-base font-semibold font-['Roboto'] leading-relaxed">
-                                Unparalleled Customer Support: Your Satisfaction is Our Priority
+                        <div className="flex flex-col gap-4">
+                            <p className="text-white text-xl font-semibold font-['Roboto'] leading-relaxed">
+                                ПЛАНЕТА DANDELION
                             </p>
-                            <span className="text-white text-sm font-normal font-['Roboto'] leading-snu">We are committed to providing unmatched customer
-                                support to our clients. Our team is always ready to assist you with any questions or concerns you may have,
-                                ensuring your complete satisfaction.</span>
+                            <span className="text-white text-lg font-normal font-['Roboto'] leading-snu">Компания открывает свои представительства во многих странах
+                                по всей планете благодаря высокоэффективному продукту на основе атомарного водорода</span>
                         </div>
                     </div>
                     <div
-                        className="flex flex-col justify-between p-8 rounded-[30px] bg-cover bg-center h-[480px] w-[300px] bg-[url('/images/image/image1.jpg')]">
+                        className="flex flex-col justify-between py-8 px-4 rounded-[30px] bg-cover bg-center h-[480px] w-[300px] bg-[url('/images/image/image1.jpg')]">
                         <div className="flex justify-end gap-2">
-                            <button className="gray_button">innovation</button>
-                            <button className="gray_button">safety</button>
+                            <button className="gray_button">инновации</button>
+                            <button className="gray_button">безопасность</button>
                         </div>
-                        <div className="flex flex-col gap-8">
-                            <p className="text-white text-base font-semibold font-['Roboto'] leading-relaxed">
-                                Innovative solutions for a safe and secure gaming environment
+                        <div className="flex flex-col gap-4">
+                            <p className="text-white text-xl font-semibold font-['Roboto'] leading-relaxed">
+                                По международным стандартам
                             </p>
-                            <span className="text-white text-sm font-normal font-['Roboto'] leading-snu">Our company utilizes cutting-edge
-                                technology to provide a secure and reliable gambling platform. You can play with confidence, knowing that your
-                                personal information and financial transactions are protected.</span>
+                            <span className="text-white text-lg font-normal font-['Roboto'] leading-snu">Мы открыли производственные площадки в странах Америки, Европы и Азии. Над созданием эффективных экологичных продуктов работают лучшие специалисты из разных стран,
+                                задействовано передовое оборудование, используются инновационные технологии. </span>
                         </div>
                     </div>
                     <div
                         className="flex flex-col justify-between p-8 rounded-[30px] bg-cover bg-center h-[480px] w-[300px] bg-[url('/images/image/image3.jpg')]">
                         <div className="flex justify-end gap-2">
-                            <button className="gray_button">bonuses</button>
+                            <button className="gray_button">бонусы</button>
                         </div>
-                        <div className="flex flex-col gap-8">
-                            <p className="text-white text-base font-semibold font-['Roboto'] leading-relaxed">
-                                Attractive Bonuses and Rewards: Enjoy Our Generous Offers
+                        <div className="flex flex-col gap-4">
+                            <p className="text-white text-xl font-semibold font-['Roboto'] leading-relaxed">
+                                Станьте партнером DANDELION, чтобы приносить здоровье каждой семье
                             </p>
-                            <span className="text-white text-sm font-normal font-['Roboto'] leading-snu">We offer attractive
-                                bonuses and rewards to our players, making your gambling experience even more enjoyable.
-                                From welcome bonuses to loyalty programs, our generous offers will keep you coming back for more.</span>
+                            <span className="text-white text-lg font-normal font-['Roboto'] leading-snu">Наша первостепенная цель – помочь людям наладить здоровый
+                                образ жизни, сделать долголетие доступным каждому,
+                                а радость и бодрость духа – естественными состояниями человека.</span>
                         </div>
                     </div>
                     <div
                         className="flex flex-col justify-between p-8 rounded-[30px] bg-cover bg-center h-[480px] w-[300px] bg-[url('/images/image/image4.jpg')]">
                         <div className="flex justify-end gap-2">
-                            <button className="gray_button">Opportunities</button>
+                            <button className="gray_button">Возможности</button>
                         </div>
-                        <div className="flex flex-col gap-8">
-                            <p className="text-white text-base font-semibold font-['Roboto'] leading-relaxed">
-                                Exciting Games and Opportunities: Join Our Gambling Team
+                        <div className="flex flex-col gap-4">
+                            <p className="text-white text-xl font-semibold font-['Roboto'] leading-relaxed">
+                                Работай во благо
                             </p>
-                            <span className="text-white text-sm font-normal font-['Roboto'] leading-snu">Our company offers a
-                                wide range of thrilling gambling games and numerous opportunities for personal growth and development.
-                                Join our team and experience the excitement of the gambling world!</span>
+                            <span className="text-white text-lg font-normal font-['Roboto'] leading-snu">Ваш бизнес уже создан — сетевой бизнес работает с DANDELION.
+                                Партнерство с нами это возможность вести свой собственный бизнес, избегая типичных
+                                предпринимательских рисков: финансовых вложений, проблем с окупаемостью, трудностей в производстве и логистике.</span>
                         </div>
                     </div>
                 </div>

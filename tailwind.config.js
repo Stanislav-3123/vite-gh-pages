@@ -16,6 +16,7 @@ export default {
             },
             animation: {
                 'rotate_full': 'full_circle 60s linear infinite',
+                'rotate_full_revers': 'full_circle_revers 60s linear infinite',
                 "move": "move 2s ease-in-out infinite",
                 'marquee': 'marquee 8s linear infinite',
                 "slide-down": "slide-down 0.8s",
@@ -100,6 +101,13 @@ export default {
                     '75%': {transform: 'rotate(270deg)'},
                     '100%': {transform: 'rotate(360deg)'}
                 },
+                'full_circle_revers': {
+                    '0%': {transform: 'rotate(360deg)'},
+                    '25%': {transform: 'rotate(270deg)'},
+                    '50%': {transform: 'rotate(180deg)'},
+                    '75%': {transform: 'rotate(90deg)'},
+                    '100%': {transform: 'rotate(0)'}
+                },
                 "move": {
                     '0%, 100%': {transform: 'translate(0, 0)'},
                     '25%': {transform: 'translate(50px, 0)'},
@@ -108,7 +116,7 @@ export default {
                 },
                 'marquee': {
                     '0%': {transform: 'translateX(0)'},
-                    '100%': {transform: 'translateX(-50%)'}
+                    '100%': {transform: 'translateX(-25%)'}
                 },
                 "slide-left": {
                     "0%": {
@@ -148,7 +156,9 @@ export default {
                 bg: "#D9E6F9",
                 grey: "#F5F5F5",
                 accent: "#4DD0E1",
-                header: "#D9E6F9"
+                header: "#D9E6F9",
+                purpure: "#754ab4",
+                pink: "#8a3d67"
             }
         },
     },

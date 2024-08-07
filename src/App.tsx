@@ -1,27 +1,23 @@
 import Wrapper from "./components/wrapper";
 import Header from "./components/Header/Header.tsx";
-import Footer from "./components/Footer/Footer.tsx";
 import {Route, Routes} from "react-router-dom";
 import Home from "./components/Home/Home.tsx";
 import MobileHeader from "./components/MobileHeaer/MobileHeader.tsx";
-import Cookies from "./components/Cookies/Cookies.tsx";
 import {FloatingButton} from "./components/Buttons/FloatingButton.tsx";
-import ContactsPage from "./components/Contacts/ContactsPage.tsx";
-import PoliciesPage from "./components/Policies/PoliciesPage.tsx";
+import ProductsPage from "./pages/ProductsPage";
+import ProductInfo from "./pages/ProductInfo";
 
 function App() {
     return (
         <Wrapper>
-            <Cookies/>
             <MobileHeader/>
             <FloatingButton/>
             <Header/>
             <Routes>
                 <Route path='/' element={<Home/>}/>
-                <Route path='/contacts' element={<ContactsPage/>}/>
-                <Route path='/policies' element={<PoliciesPage/>}/>
+                <Route path='/products' element={<ProductsPage/>}/>
+                <Route path='/product/:id' element={<ProductInfo/>}/>
             </Routes>
-            <Footer/>
         </Wrapper>
     )
 }

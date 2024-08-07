@@ -16,22 +16,24 @@ const AboutUs = () => {
                 <div className="fc sm:justify-between sm:w-1/2">
                     <div className="p-4 sm:px-8 sm:gap-8 flex flex-row sm:flex-col justify-between">
                         <p data-aos="fade-right" data-aos-duration="500"
-                            className="description_number self-start">(01)</p>
+                           className="description_number self-start">(01)</p>
                         <h2 data-aos="fade-up" data-aos-duration="500"
-                        >ABOUT US</h2>
+                        >КОМПАНИЯ DANDELION - ЭТО</h2>
                     </div>
-                    <p data-aos="zoom-in-up" data-aos-duration="500"
-                        className="p-4 sm:px-8 sm:pr-[152px]">Smart Choice B.V. is a gambling company that offers innovative solutions and high-quality services to its clients.</p>
+
                 </div>
                 <h3 data-aos="zoom-in-up" data-aos-duration="500"
-                    className="p-4 sm:px-8 sm:h-auto sm:w-1/2">Our team is constantly
-                    <span className="blue_span">  learning and adapting to the ever-changing landscape </span>
-                    of the gambling world, ensuring that we always
-                    <span className="blue_span">  stay ahead of the curve.</span></h3>
+                    className="p-4 sm:px-8 sm:h-auto sm:w-1/2">
+                    Инновационные натуральные продукты
+                    <span className="blue_span"> для молодости, красоты, здоровья, и долголетия, на основе природных компонентов
+                    </span> Компания DANDELION предлагает комплексные решения,
+                    <span className="blue_span">  позволяющие максимально эффективно и разумно заботиться о здоровье.
+                       </span> Наши продукты разработаны по инновационным технологиям и проверенным временем методикам лучшими в мире специалистами в нутрициологии.
+                </h3>
             </div>
             <div data-aos="zoom-in-up" data-aos-duration="500"
-                className="overflow-y-hidden sm:overflow-y-visible">
-            <ImagesSlider/>
+                 className="overflow-y-hidden sm:overflow-y-visible">
+                <ImagesSlider/>
             </div>
         </div>
     );

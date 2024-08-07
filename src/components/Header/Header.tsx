@@ -2,7 +2,6 @@ import {NavLink} from "react-router-dom";
 import {Link} from "react-scroll";
 
 
-
 const scrollToTop = () => window.scrollTo({top: 0, behavior: 'smooth'})
 const Header = () => {
     return (
@@ -10,20 +9,21 @@ const Header = () => {
         rounded-[100px] fixed top-0 w-full z-40 px-8 py-4">
             <nav className="flex flex-row items-center w-full justify-between">
                 <div className="flex gap-4">
-                    <div className="">
-                    <NavLink to={'/contacts'} onClick={scrollToTop} className="header_link">
-                        CONTACTS
+                    <NavLink to={'/products'} onClick={scrollToTop} className="header_link">
+                        Контакты
                     </NavLink>
-                    </div>
-                    <NavLink to={'/policies'} onClick={scrollToTop} className="header_link">
-                        POLICIES
+                    <NavLink to={'/products'} onClick={scrollToTop} className="header_link">
+                        Продукция
+                    </NavLink>
+                    <NavLink to={'/marketing'} onClick={scrollToTop} className="header_link">
+                        Маркетинг
                     </NavLink>
                 </div>
                 <NavLink to={'/'} onClick={scrollToTop}
-                      className="cursor-pointer w-[170.58px] h-4 bg-[url('/images/Smart-choice.svg')] bg-center bg-cover my-3.5"/>
+                         className="cursor-pointer w-[170.58px] h-14 bg-[url('/images/dandelion_logo_color.png')] bg-center bg-cover "/>
                 <Link to={'contactForm'} offset={-320} smooth={true} duration={900}
                       className="black_button whitespace-nowrap sm:w-[163px]">
-                    WRITE TO US
+                    Напиши нам
                 </Link>
             </nav>
         </header>

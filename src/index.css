@@ -4,7 +4,7 @@
 
 
 .ticker {
-    @apply text-center text-sky-950 text-lg sm:text-2xl font-bold font-['Syncopate'] uppercase
+    @apply border-2 border-violet-800 bg-violet-50 rounded-[40px] px-2 text-center text-black text-lg sm:text-2xl font-bold font-['Syncopate'] uppercase
 }
 
 .fr {
@@ -124,9 +124,10 @@
     padding: 0;
     box-sizing: border-box;
 
-    ::-webkit-scrollbar {
-        width: 0;
-    }
+}
+
+::-webkit-scrollbar {
+    width: 0;
 }
 
 body {
