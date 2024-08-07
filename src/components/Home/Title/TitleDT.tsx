@@ -1,5 +1,4 @@
 import {Link} from "react-scroll";
-import SliderTitle from "../../Sliders/SliderTitle.tsx";
 
 const TitleDt = () => {
 

@@ -28,7 +28,6 @@ const MobileHeader = () => {
 
                             <div
                                 className="w-6 h-6 relative bg-[url('/images/systemIcons/menu.svg')] bg-center bg-cover"/>
-
                         </div>
                     </div>
                     :
@@ -60,6 +59,8 @@ const MobileHeader = () => {
                                         <NavLink onClick={() => setIsOpen(true)} to={"/products"}
                                                  className={"navbar_link"}>Продукция</NavLink>
                                         <a href={"https://t.me/+OhjNjl2EmpUxZDAy"} className={"navbar_link"}>Бизнес</a>
+                                        <NavLink onClick={() => setIsOpen(true)} to={"/marketing"}
+                                                 className={"navbar_link"}>маркетинг</NavLink>
                                     </div>
                                 </div>
                                 <div className="flex flex-col w-full gap-8">

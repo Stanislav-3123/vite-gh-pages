@@ -6,6 +6,7 @@ import MobileHeader from "./components/MobileHeaer/MobileHeader.tsx";
 import {FloatingButton} from "./components/Buttons/FloatingButton.tsx";
 import ProductsPage from "./pages/ProductsPage";
 import ProductInfo from "./pages/ProductInfo";
+import Marketing from "./pages/Marketing";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Header/>
             <Routes>
                 <Route path='/' element={<Home/>}/>
+                <Route path='/marketing' element={<Marketing/>}/>
                 <Route path='/products' element={<ProductsPage/>}/>
                 <Route path='/product/:id' element={<ProductInfo/>}/>
             </Routes>
