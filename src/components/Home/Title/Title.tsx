@@ -8,7 +8,7 @@ const MobileTitle = () => {
         <div
             className="overflow-y-hidden w-full mb:h-full h-[587pxpx] sm:hidden flex-col justify-start gap-4 items-start inline-flex">
             <div className="w-full">
-                <Title title={"Магний"}
+                <Title title={"HAVAL"}
                        className={"text-[#774cb4] text-5xl font-bold font-['Syncopate'] uppercase text-start px-4 animate-jump-in animate-once animate-duration-700 animate-delay-0 animate-ease-in"}/>
                 <Title title={"Водород"}
                        className={"text-[#8a3d67] text-5xl font-bold font-['Syncopate'] uppercase text-end px-4 animate-jump-in animate-once animate-duration-700 animate-delay-0 animate-ease-in"}/>
